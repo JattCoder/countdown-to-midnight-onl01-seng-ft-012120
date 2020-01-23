@@ -8,7 +8,7 @@ def countdown(ten)
 end
 
 def countdown_with_sleep(five)
-  while five > 0
+  while runtime.real.to_i >= 5
     return false
   end
 end
